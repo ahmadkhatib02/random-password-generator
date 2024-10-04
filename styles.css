@@ -1,0 +1,124 @@
+body{
+    background: #1F2937;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+#title{
+    font-family: "Karla", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    text-align: left;
+}
+
+.title1{
+    margin-bottom: 3px;
+    color: white;
+}
+
+.title2{
+    margin: 3px 0px 0px 0px;
+    color: #10B981;
+}
+
+.description{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin: 10px 0px 30px 0px;
+    color: #D5D4D8;
+
+}
+
+#start-button{
+    display: flex;
+    background: #10B981;
+    width: 190px;
+    height: 20px;
+    top: 287px;
+    left: 52px;
+    padding: 10px 15px;
+    gap: 12px;
+    border-radius: 6px;
+    opacity: 0px;
+  
+}
+
+.lightning{
+    width: 14px;
+    height: 18px;
+    top: 1px;
+    left: 3px;
+    gap: 0px;
+    opacity: 0px;
+    padding-top: 3px;
+}
+
+.start{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+    width: 159px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 0px;
+}
+
+#line{
+    width: 446px;
+    height: 0px;
+    top: 364px;
+    left: 52px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    margin-top: 35px;
+    border: 1px solid  #2F3E53;
+}
+
+#password-containors{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+    width: 446px;
+}
+
+.password{
+    width: 211px;
+    height: 39px;
+    top: 399px;
+    left: 52px;
+    gap: 0px;
+    border-radius: 6px;
+    opacity: 0px;
+    background: #273549;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #55F991;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+
+}
+
+.loading{
+    width: 20px;
+    height: 5px;
+    top: 416px;
+    left: 148px;
+    gap: 0px;
+    opacity: 0px;
+    padding-top: 15px;
+}
